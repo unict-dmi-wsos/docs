@@ -22,3 +22,8 @@ cat rise.css
 img[alt="github"] { 
     max-width:  300px; 
   }
+
+
+  img[alt="right"] { 
+    float: right;
+  }
