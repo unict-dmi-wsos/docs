@@ -1,0 +1,25 @@
+.custom-logo {
+    position: absolute;
+    top: 20px;     /* Distance from the top */
+    left: 20px;    /* Distance from the left */
+    width: 80px;   /* Adjust the logo size */
+    z-index: 100;
+    padding: 10px; /* Space inside the logo's boundary */
+    margin: 5px;   /* Space outside the logo's boundary */
+    background-color: white; /* Optional: Background color */
+    border-radius: 8px; /* Optional: Rounded edges */
+}
+
+.custom-footer {
+    position: absolute;
+    bottom: 10px;  /* Distance from the bottom */
+    left: 0;
+    width: 100%;   /* Make the footer span the entire width */
+    text-align: center; /* Center the text horizontally */
+    font-size: 14px; /* Adjust the font size */
+    font-family: 'Courier New', Courier, monospace;
+    color: #666;    /* Adjust the text color */
+    padding: 5px;   /* Add some padding */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background */
+  /* z-index: 50;    /* Ensure it appears above slide content */
+}
